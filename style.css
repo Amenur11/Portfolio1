@@ -250,7 +250,6 @@ body {
 }
 
 
-
 .navbar a {
     font-size: 1.8rem;
     color: var(--text-color);
@@ -330,6 +329,15 @@ section {
     transform: scale(1.05);
     box-shadow: 0 0 50px var(--main-color);
 }
+
+/*all heading styles*/
+
+.heading {
+    font-size: 8rem;
+    text-align: center;
+    margin: 5rem 0;
+}
+
 
 /* Timetable Styles */
 
