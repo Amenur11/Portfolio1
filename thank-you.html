@@ -11,13 +11,6 @@
             --text-color: white;
             --main-color: #0a6630;
         }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         body {
             background-color: var(--bg-color);
             color: var(--text-color);
@@ -25,30 +18,23 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
+            height: 100vh;
             text-align: center;
-            padding: 2rem;
+            margin: 0;
         }
-
         .message-box {
             background-color: var(--second-bg-color);
             padding: 3rem 5rem;
             border-radius: 1.5rem;
             box-shadow: 0 0 20px var(--main-color);
-            max-width: 100%;
-            width: 100%;
-            max-width: 600px; /* Limit max width */
         }
-
         h2 {
-            font-size: 2.5rem;
+            font-size: 3rem;
             margin-bottom: 1rem;
         }
-
         p {
-            font-size: 1.6rem;
+            font-size: 2rem;
         }
-
         .btn {
             margin-top: 2rem;
             padding: 1rem 2.5rem;
@@ -61,13 +47,11 @@
             font-size: 1.6rem;
             transition: 0.3s ease;
         }
-
         .btn:hover {
             background-color: #308b4c;
         }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
+          /* Responsive Design */
+          @media (max-width: 768px) {
             body {
                 padding: 1rem;
             }
@@ -108,11 +92,13 @@
                 padding: 0.7rem 1.8rem;
             }
         }
+    
     </style>
 </head>
 <body>
     <div class="message-box">
         <h2>Thank You for Your Submission!</h2>
+        <p>We will get back to you soon.</p>
         <a href="index.html" class="btn">Return to Homepage</a>
     </div>
 </body>
