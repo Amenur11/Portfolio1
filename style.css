@@ -11,3 +11,21 @@
     font-family: "Poppins", sans-serif;
 
 }
+/* for easy navigation colors */
+:root {
+    --bg-color: #92bda4ab;
+    --second-bg-color: #197530bd;
+    --text-color: White;
+    --main-color: #0a6630;
+}
+
+
+html {
+    font-size: 60%;
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
