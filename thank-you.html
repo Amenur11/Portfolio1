@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <style>
+        :root {
+            --bg-color: #92bda4ab;
+            --second-bg-color: #197530bd;
+            --text-color: white;
+            --main-color: #0a6630;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            margin: 0;
+        }
+        .message-box {
+            background-color: var(--second-bg-color);
+            padding: 3rem 5rem;
+            border-radius: 1.5rem;
+            box-shadow: 0 0 20px var(--main-color);
+        }
+        h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 2rem;
+        }
+        .btn {
+            margin-top: 2rem;
+            padding: 1rem 2.5rem;
+            background-color: var(--main-color);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 1.6rem;
+            transition: 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #308b4c;
+        }
+    </style>
+</head>
+<body>
+    <div class="message-box">
+        <h2>Thank You for Your Submission!</h2>
+        <p>We will get back to you soon.</p>
+        <a href="index.html" class="btn">Return to Homepage</a>
+    </div>
+</body>
+</html>
